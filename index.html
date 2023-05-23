@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Avivet Animal Health Pvd. Ltd.,</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.header {
+  padding: 15px;
+  text-align: center;
+  background: #2731a3;
+  color: white;
+}
+.header h1 {
+  font-size: 40px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a.right {
+  float: right;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.side {
+  -ms-flex: 30%; 
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: white;
+  padding: 40px;
+}
+.product{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.divimage{
+  width: 100%;
+  height: fit-content;
+  border: 2px solid #ff3d0036;
+  border-radius: 7px;
+  box-shadow: 4px 7px 7px 0px #00000042;
+  cursor: pointer;
+  margin: 10px;
+  transition: 400ms;
+}
+.divimage:hover{
+  filter: grayscale(1);
+  transform: scale(1,1);
+}
+.con {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.col{
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="logo.png">
+  <p>Avivet Animal Health Pvd. Ltd.,</p>
+</div>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#products">Products</a>
+  <a href="#location">Location</a>
+  <a href="#contact">Contact</a>
+</div>
+<a name="home"></a>
+<div class="row">
+  <div class="main">
+    <div style="height:400px;"><center><img src="Background.jpg" height="385px" width="80%"></center></div>
+  </div>
+  <div class="side">
+    <h2><center>About Us:</center></h2>
+    <p style="font-size: larger;"><b>Avivet Animal Health Pvt. Ltd.,</b> established in the year 2023 by industry professionals with an intention of providing quality products and services to the client in the field of <i style="color:blue">poultry nutrition and healthcare</i>. The company is run by
+        professionals having highest standard of ethics and having a rich industry experience.The founders have working exposure with leading pharma companies and have a cumulative work experience of over 10 years. The founders,following a step-by-step approach intended to expand further.
+    </p>
+    <a name="products"></a>
+    <h2><center>Product Gallery:</center></h2>
+    <div class="product">
+      <div class="col"><a href="product1.jpeg"><img class="divimage" src="product1.jpeg"></a></div>
+      <div class="col"><a href="product2.jpeg"><img class="divimage" src="product2.jpeg"></a></div>
+      <div class="col"><a href="product3.jpeg"><img class="divimage" src="product3.jpeg"></a></div>
+      <div class="col"><a href="product4.jpeg"><img class="divimage" src="product4.jpeg"></a></div>
+      <div class="col"><a href="product5.jpeg"><img class="divimage" src="product5.jpeg"></a></div>
+      <marquee style="color: blue;" scrollamount="10">Click on the image to view the Product</marquee>
+    </div>
+    <a name="location"></a>
+    <h2><center>Location:</center></h2>
+    <div> 
+      <center>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15224.314727206935!2d78.4315876984012!3d17.45594778508481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb90ef222ca571%3A0xf58ee43cf4108a79!2sSanath%20Nagar%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1683975182161!5m2!1sen!2sin" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </center>
+    </div>
+  </div>
+</div>
+
+<div class="con">
+  <a name="contact"></a>
+  <h2>Contact:</h2>
+  <p>Avivet Animal Health Pvd. Ltd.,<br>
+    SRT 1084,FIRST FLOOR,SANATH NAGAR,HYDERABAD-500018<br>
+    avivetanimalhealth@gmail.com
+  </p>
+</div>
+</body>
+</html>
